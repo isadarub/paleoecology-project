@@ -7,11 +7,7 @@ const App = () => {
   return (
     <>
       <Header />
-      <Main
-        paleozoico="Paleozoico"
-        mesozoico="Mesozoico"
-        cenozoico="Cenozoico"
-      />
+      <Main/>
       <Footer />
     </>
   );
