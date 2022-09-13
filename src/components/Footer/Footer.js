@@ -1,21 +1,23 @@
-import React from "react";
+import React from 'react';
 
 const Footer = () => {
-    return (
-        <footer>
-            <h5>Elaborado e produzido por:</h5>
-            <ul>
-                <li>
-                    <img src="" alt="Foto de Isabelle Daru" />
-                    <p>Isabelle Daru</p>
-                </li>
-                <li>
-                    <img src="" alt="Foto de João" />
-                    <p>João Não lembro o sobrenome</p>
-                </li>
-            </ul>
-        </footer>
-    );
+  return (
+    <footer>
+      <h5>Elaborado e produzido por:</h5>
+      <ul>
+        <li>
+          <p>Isabelle Daru</p>
+        </li>
+        <li>
+          <p>João Kurowski</p>
+        </li>
+      </ul>
+      <h5>
+        Estudantes de Bacharel em Ciências Biológicas pela Universidade Federal
+        do Paraná (UFPR)
+      </h5>
+    </footer>
+  );
 };
 
 export default Footer;

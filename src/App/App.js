@@ -6,11 +6,15 @@ import Footer from '../components/Footer/Footer.js';
 const App = () => {
   return (
     <>
-      <Header/>
-      <Main/>
-      <Footer/>
+      <Header />
+      <Main
+        paleozoico="Paleozoico"
+        mesozoico="Mesozoico"
+        cenozoico="Cenozoico"
+      />
+      <Footer />
     </>
   );
-}
+};
 
 export default App;
