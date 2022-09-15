@@ -1,8 +1,7 @@
 import React from 'react';
 import { InfoCardContent, PopupStyled } from './styled';
 
-const InfoCard = ({ image, title, description, className, details}) => {
-
+const InfoCard = ({ image, title, description, className, details }) => {
   return (
     <InfoCardContent
       className={className}
@@ -19,13 +18,21 @@ const InfoCard = ({ image, title, description, className, details}) => {
           </button>
         }
       >
-        
-          {<>            
-            <img src="" className='reconstituition' alt="Reconstituição do periodo com o fóssil em destaque" />
-
+        {
+          <>
+            <img
+              src={details.reconstruction}
+              className="reconstituition"
+              alt="Reconstituição do periodo com o fóssil em destaque"
+            />
+            <p>Modo de fossilização:{details.fossilizationMode}</p>
+            <ul>
+              Identificação taxonômica:
+              <li>{details.taxonomicDescription}</li>
+            </ul>
             <p>{details.longDescription}</p>
-          </>}
-      
+          </>
+        }
       </PopupStyled>
       <div className="texts">
         <h4>{title}</h4>
