@@ -27,8 +27,16 @@ export const PopupStyled = styled(Popup)`
     width: 85vw;
     height: 85vh;
     margin: auto auto;
+    font-family: 'Montserrat', sans-serif;
   }
 
   &-content .reconstituition {
+    width: 50%;
+    height: 70%;
+    object-fit: cover;
+  }
+
+  &-content p {
+    font-weight: 500;
   }
 `;
