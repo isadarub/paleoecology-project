@@ -2,6 +2,13 @@ import React from 'react';
 import { InfoCardContent, PopupStyled } from './styled';
 
 const InfoCard = ({ image, title, description, className, details }) => {
+
+  const mountTaxonomicDescription = details.taxonomicDescription.map(item => {
+    return (
+      <li key={item} ><p>{item}</p></li>
+    )
+  })
+
   return (
     <InfoCardContent
       className={className}
@@ -11,7 +18,6 @@ const InfoCard = ({ image, title, description, className, details }) => {
         position="right center"
         modal
         lockScroll="true"
-        closeOnDocumentClick
         trigger={
           <button>
             <img src={image} alt="Imagem ilustrativa do fóssil" />
@@ -19,19 +25,23 @@ const InfoCard = ({ image, title, description, className, details }) => {
         }
       >
         {
-          <>
+          <div className="popup-container">
             <img
               src={details.reconstruction}
               className="reconstituition"
               alt="Reconstituição do periodo com o fóssil em destaque"
             />
-            <p>Modo de fossilização: {details.fossilizationMode}</p>
-            <ul>
-              Identificação taxonômica:
-              <li>{details.taxonomicDescription}</li>
-            </ul>
-            <p>{details.longDescription}</p>
-          </>
+            <div className="popup-texts">
+              <h4>Modo de fossilização:</h4>
+              <p>{details.fossilizationMode}</p>
+              <ul>
+                <h4>Identificação taxonômica:</h4>
+                {mountTaxonomicDescription}
+              </ul>
+              <h4>Saiba mais: </h4>
+              <p>{details.longDescription}</p>
+            </div>
+          </div>
         }
       </PopupStyled>
       <div className="texts">
