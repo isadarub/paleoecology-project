@@ -1,10 +1,15 @@
 import React from 'react';
 import Popup from 'reactjs-popup';
 import InfoPopup from '../InfoPopup/InfoPopup';
+import { InfoCardContent } from './styled';
 
-const InfoCard = ({ image, title, description }) => {
+const InfoCard = ({ image, title, description, className }) => {
   return (
-    <div aria-haspopup aria-label="Espaço de informações de fósseis">
+    <InfoCardContent
+      className={className}
+      aria-haspopup
+      aria-label="Espaço de informações de fósseis"
+    >
       <Popup
         trigger={
           <button>
@@ -19,9 +24,11 @@ const InfoCard = ({ image, title, description }) => {
           <InfoPopup close={close} />;
         }}
       </Popup>
-      <h4>{title}</h4>
-      <p>{description}</p>
-    </div>
+      <div className="texts">
+        <h4>{title}</h4>
+        <p>{description}</p>
+      </div>
+    </InfoCardContent>
   );
 };
 

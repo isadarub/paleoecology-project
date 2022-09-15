@@ -11,7 +11,6 @@ export const MainContent = styled.main`
   overflow-y: hidden;
 
   .Paleozóico {
-    width: fit-content;
     height: fit-content;
     background: #5f0f40;
     display: flex;
@@ -20,7 +19,6 @@ export const MainContent = styled.main`
     align-items: center;
   }
   .Mesozóico {
-    width: fit-content;
     height: fit-content;
     background: #fb8b24;
     display: flex;
@@ -29,7 +27,6 @@ export const MainContent = styled.main`
     align-items: center;
   }
   .Cenozóico {
-    width: fit-content;
     height: fit-content;
     background: #e36414;
     display: flex;
