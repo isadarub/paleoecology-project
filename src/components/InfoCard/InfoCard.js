@@ -25,7 +25,7 @@ const InfoCard = ({ image, title, description, className, details }) => {
               className="reconstituition"
               alt="Reconstituição do periodo com o fóssil em destaque"
             />
-            <p>Modo de fossilização:{details.fossilizationMode}</p>
+            <p>Modo de fossilização: {details.fossilizationMode}</p>
             <ul>
               Identificação taxonômica:
               <li>{details.taxonomicDescription}</li>

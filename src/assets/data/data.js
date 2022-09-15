@@ -15,12 +15,15 @@ import rec4 from '../img/4_reconstrucao.png';
 import rec5 from '../img/5_reconstrucao.png';
 import rec6 from '../img/6_reconstrucao.png';
 import rec7 from '../img/7_reconstrucao.png';
+import rec8 from '../img/8_reconstrucao.png';
+import rec9 from '../img/9_reconstrucao.png';
+import rec10 from '../img/10_reconstrucao.png';
 
 export const data = [
   {
     title: 'Paleozoico',
     description:
-      'O Paleozoico iniciou há cerca de 541 milhões de anos atrás. É subdividido em seis períodos e se inicia com a vida restrita ao ambiente aquático, sendo que boa parte dos filos de invertebrados é encontrado em registros fósseis no primeiro período.',
+      'O Paleozoico iniciou há cerca de 541 milhões de anos atrás. É subdividido em seis períodos e se inicia com a vida restrita ao ambiente aquático, sendo que boa parte dos filos de invertebrados é encontrado em registros fósseis no primeiro período. O clima era predominantemente quente, úmido e pouco diferenciado, não sendo dividido em estações ou em faixas de temperatura.',
     fossils: [
       {
         fossilTitle: 'Ovo de trilobita (Ordoviciano Superior 450 - 440 Ma)',
@@ -135,27 +138,36 @@ export const data = [
         fossilTitle:
           'Oviraptorosauro incubando ovos no ninho (Maastrichtiano 72.1 - 66 Ma)',
         image: img7,
-        collectedIn: '',
+        collectedIn:
+          'Nanxiong Formation, cidade de Ganzhou, província de Jiangxi, China',
         details: {
           taxonomicDescription: [
             'Filo: Chordata',
             'Clado: Dinosauria',
             'Clado: Oviraptorosauria',
           ],
-          fossilizationMode: '',
+          fossilizationMode: 'Mineralização',
           reconstruction: rec7,
-          longDescription: '',
+          longDescription:
+            'Esse é o primeiro fóssil de dinossauro não-ave preservado sobre o seu conjunto de ovos enquanto o incubava. Esses ovos também contêm restos de embriões que apresentam diferentes estágios de desenvolvimento que revelam incubação assíncrona, uma característica derivada mesmo em aves, agora observado num dinossauro não-ave. Os estudos relacionados com esse registro único demonstram que a evolução da biologia reprodutiva das aves não foi linear.',
         },
       },
       {
         fossilTitle:
-          'Oviraptorosauro incubando ovos no ninho (Cretáceo Superior Maastrichtiano 72 - 66 Ma)',
+          '"Primeira galinha", um dos primeiros Neornithes (Aves modernas) (Cretáceo Superior Maastrichtiano 72 - 66 Ma)',
         image: img10,
-        shortDescription:
-          'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
+        collectedIn:
+          'Formação Maastricht, pedreira Eben-Emael, Liège, Bélgica.',
         details: {
+          taxonomicDescription: [
+            'Filo: Chordata',
+            'Classe: Aves',
+            'Espécie: Asteriornis maastrichtensis',
+          ],
+          fossilizationMode: 'Conservação de parte dura',
+          reconstruction: rec10,
           longDescription:
-            'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident dolore a aperiam illo soluta ullam quaerat incidunt, deleniti doloremque laborum eveniet similique tempora itaque veniam consequuntur. Totam atque impedit molestias!',
+            'Fóssil do provável primeiro ancestral de galinhas e também de patos, é um espécime único e bem preservado do final do Cretáceo, logo antes do grande evento de extinção em massa há 66 milhões de anos atrás. Um dos principais motivos de sua importância é que é praticamente o único crânio completo de uma ave moderna (Neornithine), contemporânea aos demais dinossauros. Esse registro representa um dos únicos que suportam bem o grupo coroa de aves na era Mesozóica.',
         },
       },
     ],
@@ -169,22 +181,36 @@ export const data = [
         fossilTitle:
           'Llallawavis scagliai (Ave do terror) (Cenozoico Plioceno de 5.3 - 3.6 Ma)',
         image: img8,
-        shortDescription:
-          'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
+        collectedIn:
+          'Formação Playa Los Lobos Allo, Mar del Plata, província de Buenos Aires, Argentina.',
         details: {
+          taxonomicDescription: [
+            'Filo: Chordata',
+            'Classe: Aves',
+            'Espécie: Llallawavis scagliai',
+          ],
+          fossilizationMode: 'Conservação de parte dura',
+          reconstruction: rec8,
           longDescription:
-            'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident dolore a aperiam illo soluta ullam quaerat incidunt, deleniti doloremque laborum eveniet similique tempora itaque veniam consequuntur. Totam atque impedit molestias!',
+            'Esse fóssil de ave do terror é o mais completo articulado esqueleto já encontrado para o grupo. Um achado que contribui para o conhecimento da diversidade, anatomia e filogenia desses animais. As aves do terror são consideradas um dos grupos mais proeminentes da avifauna da América do Sul. Considerados predadores do topo (Apex predator) suas habilidades para a caça foram recentemente examinadas e muito de sua diversidade está sendo revelada aos poucos.',
         },
       },
       {
         fossilTitle:
           'Ovo de ave do quaternário (Cenozoico Quaternário Pleistoceno 2.6 - 0.012 Ma)',
         image: img9,
-        shortDescription:
-          'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
+        collectedIn:
+          'Ravinas nas margens do Río de la Plata, perto da cidade de Colonia.',
         details: {
+          taxonomicDescription: [
+            'Filo: Chordata',
+            'Classe: Aves',
+            'Família: Tinamidae',
+          ],
+          reconstruction: rec9,
+          fossilizationMode: 'Conservação de parte dura',
           longDescription:
-            'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident dolore a aperiam illo soluta ullam quaerat incidunt, deleniti doloremque laborum eveniet similique tempora itaque veniam consequuntur. Totam atque impedit molestias!',
+            'Esse fóssil representa o primeiro fóssil de ovo completo de uma ave do Quaternário da América do Sul, apresentando uma preservação excepcional. O fóssil é um caso raro de completa preservação de ovos do Cenozoico e em seu estudo os pesquisadores conseguiram, através de análise micro e macroestrutural, identificar a família de aves a qual esse ovo poderia pertencer, a família Tinamidae.',
         },
       },
     ],
