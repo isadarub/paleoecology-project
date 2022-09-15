@@ -10,7 +10,7 @@ export const MainContent = styled.main`
   font-family: 'Montserrat', sans-serif;
   overflow-y: hidden;
 
-  .Paleozóico {
+  .Paleozoico {
     height: fit-content;
     background: #5f0f40;
     display: flex;
@@ -18,7 +18,7 @@ export const MainContent = styled.main`
     justify-content: center;
     align-items: center;
   }
-  .Mesozóico {
+  .Mesozoico {
     height: fit-content;
     background: #fb8b24;
     display: flex;
@@ -26,7 +26,7 @@ export const MainContent = styled.main`
     justify-content: center;
     align-items: center;
   }
-  .Cenozóico {
+  .Cenozoico {
     height: fit-content;
     background: #e36414;
     display: flex;
