@@ -10,7 +10,7 @@ const InfoSection = ({ fossils, age, description }) => {
           key={fossil.fossilTitle}
           image={fossil.image}
           title={fossil.fossilTitle}
-          description={fossil.shortDescription}
+          description={fossil.collectedIn}
           className="cards-right"
           details={fossil.details}
         />
@@ -21,7 +21,7 @@ const InfoSection = ({ fossils, age, description }) => {
           key={fossil.fossilTitle}
           image={fossil.image}
           title={fossil.fossilTitle}
-          description={fossil.shortDescription}
+          description={fossil.collectedIn}
           className="cards-left"
           details={fossil.details}
         />
