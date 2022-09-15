@@ -12,6 +12,7 @@ const InfoSection = ({ fossils, age, description }) => {
           title={fossil.fossilTitle}
           description={fossil.shortDescription}
           className="cards-right"
+          details={fossil.details}
         />
       );
     } else {
@@ -22,6 +23,7 @@ const InfoSection = ({ fossils, age, description }) => {
           title={fossil.fossilTitle}
           description={fossil.shortDescription}
           className="cards-left"
+          details={fossil.details}
         />
       );
     }

@@ -77,7 +77,7 @@ export const data = [
       },
       {
         fossilTitle:
-          'Oviraptorosauro incubando ovos no ninho (Cretáceo Superior Maastrichtiano 72 - 66 Ma)',
+          'Oviraptorosauro incubando ovos no ninho (Cretáceo Superior Maastrichtiano 72 - 66 Ma (1))',
         image: img6,
         shortDescription:
           'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
