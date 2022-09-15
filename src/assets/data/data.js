@@ -32,9 +32,9 @@ export const data = [
         image: img1,
         details: {
           taxonomicDescription: [
-            'Filo: Arthropoda',
-            'Classe: Trilobita',
-            'Espécie: Triarthrus eatoni',
+            'Filo: Arthropoda; ',
+            'Classe: Trilobita; ',
+            'Espécie: Triarthrus eatoni.',
           ],
           reconstruction: rec1,
           fossilizationMode: 'Piritização',
@@ -49,9 +49,9 @@ export const data = [
         image: img2,
         details: {
           taxonomicDescription: [
-            'Filo: Chordata',
-            'Classe: Sarcopterygii',
-            'Espécie: Rhabdoderma exiguum',
+            'Filo: Chordata; ',
+            'Classe: Sarcopterygii; ',
+            'Espécie: Rhabdoderma exiguum.',
           ],
           fossilizationMode: 'Encontrados preservados em concreções de ferro.',
           reconstruction: rec2,
@@ -73,9 +73,9 @@ export const data = [
         image: img3,
         details: {
           taxonomicDescription: [
-            'Filo: Chordata',
-            'Clado: Dinosauria',
-            'Espécie: Mussaurus patagonicus',
+            'Filo: Chordata; ',
+            'Clado: Dinosauria; ',
+            'Espécie: Mussaurus patagonicus.',
           ],
           reconstruction: rec3,
           fossilizationMode: 'Mineralização',
@@ -90,9 +90,9 @@ export const data = [
         image: img4,
         details: {
           taxonomicDescription: [
-            'Filo: Chordata',
-            'Clado: Dinosauria',
-            'Espécie: Protoceratops andrewsi',
+            'Filo: Chordata; ',
+            'Clado: Dinosauria; ',
+            'Espécie: Protoceratops andrewsi.',
           ],
           reconstruction: rec4,
           fossilizationMode: 'Mineralização',
@@ -107,9 +107,9 @@ export const data = [
         image: img5,
         details: {
           taxonomicDescription: [
-            'Filo: Chordata',
-            'Clado: Dinosauria',
-            'Espécie: Archaeopteryx siemensii',
+            'Filo: Chordata; ',
+            'Clado: Dinosauria; ',
+            'Espécie: Archaeopteryx siemensii.',
           ],
           fossilizationMode: 'Mineralização',
           reconstruction: rec5,
@@ -124,9 +124,9 @@ export const data = [
         collectedIn: 'Formação Hekou no sul da China',
         details: {
           taxonomicDescription: [
-            'Filo: Chordata',
-            'Clado: Dinosauria',
-            'Clado: Oviraptorosauria',
+            'Filo: Chordata; ',
+            'Clado: Dinosauria; ',
+            'Clado: Oviraptorosauria.',
           ],
           fossilizationMode: 'Mineralização (Possível incrustação)',
           reconstruction: rec6,
@@ -142,9 +142,9 @@ export const data = [
           'Nanxiong Formation, cidade de Ganzhou, província de Jiangxi, China',
         details: {
           taxonomicDescription: [
-            'Filo: Chordata',
-            'Clado: Dinosauria',
-            'Clado: Oviraptorosauria',
+            'Filo: Chordata; ',
+            'Clado: Dinosauria; ',
+            'Clado: Oviraptorosauria.',
           ],
           fossilizationMode: 'Mineralização',
           reconstruction: rec7,
@@ -160,9 +160,9 @@ export const data = [
           'Formação Maastricht, pedreira Eben-Emael, Liège, Bélgica.',
         details: {
           taxonomicDescription: [
-            'Filo: Chordata',
-            'Classe: Aves',
-            'Espécie: Asteriornis maastrichtensis',
+            'Filo: Chordata; ',
+            'Classe: Aves; ',
+            'Espécie: Asteriornis maastrichtensis.',
           ],
           fossilizationMode: 'Conservação de parte dura',
           reconstruction: rec10,
@@ -185,9 +185,9 @@ export const data = [
           'Formação Playa Los Lobos Allo, Mar del Plata, província de Buenos Aires, Argentina.',
         details: {
           taxonomicDescription: [
-            'Filo: Chordata',
-            'Classe: Aves',
-            'Espécie: Llallawavis scagliai',
+            'Filo: Chordata; ',
+            'Classe: Aves; ',
+            'Espécie: Llallawavis scagliai.',
           ],
           fossilizationMode: 'Conservação de parte dura',
           reconstruction: rec8,
@@ -203,9 +203,9 @@ export const data = [
           'Ravinas nas margens do Río de la Plata, perto da cidade de Colonia.',
         details: {
           taxonomicDescription: [
-            'Filo: Chordata',
-            'Classe: Aves',
-            'Família: Tinamidae',
+            'Filo: Chordata; ',
+            'Classe: Aves; ',
+            'Família: Tinamidae.',
           ],
           reconstruction: rec9,
           fossilizationMode: 'Conservação de parte dura',

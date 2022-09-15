@@ -28,6 +28,13 @@ export const PopupStyled = styled(Popup)`
     height: 85vh;
     margin: auto auto;
     font-family: 'Montserrat', sans-serif;
+    transition: 1s;
+  }
+
+  &-content .popup-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
   }
 
   &-content .reconstituition {
@@ -36,7 +43,21 @@ export const PopupStyled = styled(Popup)`
     object-fit: cover;
   }
 
+  &-content .popup-texts {
+    text-align: left;
+    width: 500px;
+  }
+
   &-content p {
     font-weight: 500;
+    margin: 1rem 1rem 2rem 1rem;
+  }
+
+  &-content ul {
+    margin-bottom: 2rem;
+  }
+
+  &-content li p {
+    margin: 1rem 1rem 0 1rem;
   }
 `;
