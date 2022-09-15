@@ -10,6 +10,11 @@ import img9 from '../img/9_fossil.png';
 import img10 from '../img/10_fossil.png';
 import rec1 from '../img/1_reconstrucao.png';
 import rec2 from '../img/2_reconstrucao.png';
+import rec3 from '../img/3_reconstrucao.png';
+import rec4 from '../img/4_reconstrucao.png';
+import rec5 from '../img/5_reconstrucao.png';
+import rec6 from '../img/6_reconstrucao.png';
+import rec7 from '../img/7_reconstrucao.png';
 
 export const data = [
   {
@@ -23,11 +28,11 @@ export const data = [
           'Formação do Golfo de Whetstone (grupo Lorraine), norte do estado de Nova York (EUA).',
         image: img1,
         details: {
-          taxonomicDescription: {
-            Filo: 'Arthropoda',
-            Classe: 'Trilobita',
-            Espécie: 'Triarthrus eatoni',
-          },
+          taxonomicDescription: [
+            'Filo: Arthropoda',
+            'Classe: Trilobita',
+            'Espécie: Triarthrus eatoni',
+          ],
           reconstruction: rec1,
           fossilizationMode: 'Piritização',
           longDescription:
@@ -40,11 +45,11 @@ export const data = [
         collectedIn: 'Fauna Mazon Creek, Illinois, USA',
         image: img2,
         details: {
-          taxonomicDescription: {
-            Filo: 'Chordata',
-            Classe: 'Sarcopterygii',
-            Espécie: 'Rhabdoderma exiguum',
-          },
+          taxonomicDescription: [
+            'Filo: Chordata',
+            'Classe: Sarcopterygii',
+            'Espécie: Rhabdoderma exiguum',
+          ],
           fossilizationMode: 'Encontrados preservados em concreções de ferro.',
           reconstruction: rec2,
           longDescription:
@@ -64,11 +69,13 @@ export const data = [
         collectedIn: '',
         image: img3,
         details: {
-          taxonomicDescription: {
-            Filo: 'Chordata',
-            Clado: 'Dinosauria',
-            Espécie: 'Mussaurus patagonicus',
-          },
+          taxonomicDescription: [
+            'Filo: Chordata',
+            'Clado: Dinosauria',
+            'Espécie: Mussaurus patagonicus',
+          ],
+          reconstruction: rec3,
+          fossilizationMode: 'Mineralização',
           longDescription:
             'Esse, assim como o fóssil de ovo de Protoceratops descrito na sequência contribuíram para o estudo que apontou que os primeiros ovos de dinossauros tinham casca mole, ao contrário da casca de ovo dura que é atribuída aos dinossauros não próximos das aves. No trabalho que foi realizado com esse fóssil os pesquisadores mostraram através das características mineralógicas evidência de que os ovos dos dinossauros Protoceratops e Mussasaurus possuíam casca mole.',
         },
@@ -76,34 +83,68 @@ export const data = [
       {
         fossilTitle:
           'Protoceratops Fóssil de ovo de dinossauro mole (Cretáceo Superior Campaniano 84 - 72 Ma)',
+        collectedIn: 'Formação Djadochta, localidade Ukhaa Tolgod na Mongólia',
         image: img4,
-        shortDescription:
-          'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
         details: {
+          taxonomicDescription: [
+            'Filo: Chordata',
+            'Clado: Dinosauria',
+            'Espécie: Protoceratops andrewsi',
+          ],
+          reconstruction: rec4,
+          fossilizationMode: 'Mineralização',
           longDescription:
-            'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident dolore a aperiam illo soluta ullam quaerat incidunt, deleniti doloremque laborum eveniet similique tempora itaque veniam consequuntur. Totam atque impedit molestias!',
+            'Esse fóssil de Protoceratops em questão foi e continua sendo objeto de estudo de trabalhos que envolvem a embriologia, biologia do desenvolvimento, história de vida e evolução de dinossauros não-aves. As aves atuais são dinossauros vivos e muitas de suas características presentes são assumidas para outros grupos de dinossauros. Portando trabalhos como este ainda podem trazer sobre características ainda desconhecidas de dinossauros do passado.',
         },
       },
       {
         fossilTitle:
           'Archaeopteryx Ave (Jurássico Superior (Titoniano) 150.8–148.5 Ma',
+        collectedIn: 'Pedreira Blumenberg perto de Eichstätt, Alemanha',
         image: img5,
-        shortDescription:
-          'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
         details: {
+          taxonomicDescription: [
+            'Filo: Chordata',
+            'Clado: Dinosauria',
+            'Espécie: Archaeopteryx siemensii',
+          ],
+          fossilizationMode: 'Mineralização',
+          reconstruction: rec5,
           longDescription:
-            'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident dolore a aperiam illo soluta ullam quaerat incidunt, deleniti doloremque laborum eveniet similique tempora itaque veniam consequuntur. Totam atque impedit molestias!',
+            'A Primeira ave, o Archaeopteryx,  é sem dúvida um dos fósseis mais conhecidos no mundo pois mostra a evidência de que dinossauros possuíam penas, representando a transição entre os dinossauros do passado e as aves modernas.   Seu nome significa "antiga pena". Esse espécime em questão é o conhecido "Espécime de Berlim" é o espécime mais completo e o primeiro que com uma cabeça intacta. Encontrado primeiramente por um fazendeiro local, foi vendido por ele para comprar uma vaca de um taverneiro. Está hoje no Museu de História Natural de Berlim.',
         },
       },
       {
         fossilTitle:
-          'Oviraptorosauro incubando ovos no ninho (Cretáceo Superior Maastrichtiano 72 - 66 Ma (1))',
+          'Ovo de oviraptorosauro (Baby Yingliang) (Cretáceo Superior Maastrichtiano 72 - 66 Ma (1))',
         image: img6,
-        shortDescription:
-          'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
+        collectedIn: 'Formação Hekou no sul da China',
         details: {
+          taxonomicDescription: [
+            'Filo: Chordata',
+            'Clado: Dinosauria',
+            'Clado: Oviraptorosauria',
+          ],
+          fossilizationMode: 'Mineralização (Possível incrustação)',
+          reconstruction: rec6,
           longDescription:
-            'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident dolore a aperiam illo soluta ullam quaerat incidunt, deleniti doloremque laborum eveniet similique tempora itaque veniam consequuntur. Totam atque impedit molestias!',
+            'Esse é reconhecido por alguns pesquisadores como o melhor embrião de dinossauro encontrado na história. O embrião aparenta estar num estágio inicial do processo de sair do ovo o primeiro estágio da mudança de posicionamento para se preparar para romper a casca que é similar ao das aves modernas. Ele foi o primeiro exemplo dessa característica do desenvolvimento embriológico encontrado nos dinossauros.',
+        },
+      },
+      {
+        fossilTitle:
+          'Oviraptorosauro incubando ovos no ninho (Maastrichtiano 72.1 - 66 Ma)',
+        image: img7,
+        collectedIn: '',
+        details: {
+          taxonomicDescription: [
+            'Filo: Chordata',
+            'Clado: Dinosauria',
+            'Clado: Oviraptorosauria',
+          ],
+          fossilizationMode: '',
+          reconstruction: rec7,
+          longDescription: '',
         },
       },
       {
@@ -122,7 +163,7 @@ export const data = [
   {
     title: 'Cenozoico',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, minus inventore earum id quae veritatis accusamus dolores perferendis ducimus totam laboriosam a officia dicta pariatur eius! Neque quibusdam dolor ad.',
+      'A Era Cenozoica abrange o intervalo dos últimos 66 milhões de anos, tendo destaque para os 3 eventos: 1) Índia e a África colidindo com o sul da Eurásia provocando elevação do Himalaia e os Alpes, 2) Abertura do Atlântico separando os continentes americanos, Europa e África, 3) Grandes zonas de subducção formaram um “Anel de Fogo” ao redor da Orla do Pacífico, consumindo a crosta oceânica e produzindo muitos vulcões e terremotos. O clima da Terra passou de condições de estufa do Cretáceo e início do Eoceno, para os primeiros registros de geleiras na Antártica no início do Oligoceno, iniciando as condições de “casa do gelo”.',
     fossils: [
       {
         fossilTitle:

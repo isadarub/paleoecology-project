@@ -22,14 +22,13 @@ export const InfoCardContent = styled.div`
 `;
 
 export const PopupStyled = styled(Popup)`
-    &-overlay{
-      background-color: white;
-      width: 85vw;
-      height: 85vh;
-      margin: auto auto;
-    }
+  &-overlay {
+    background-color: white;
+    width: 85vw;
+    height: 85vh;
+    margin: auto auto;
+  }
 
-    &-content .reconstituition {
-      
-    }
+  &-content .reconstituition {
+  }
 `;
