@@ -10,6 +10,9 @@ import img9 from '../img/9_fossil.png';
 import img10 from '../img/10_fossil.png';
 import rec1 from '../img/1_reconstrucao.png';
 import rec2 from '../img/2_reconstrucao.png';
+import rec3 from '../img/3_reconstrucao.png';
+import rec4 from '../img/4_reconstrucao.png';
+import rec5 from '../img/5_reconstrucao.png';
 
 export const data = [
   {
@@ -69,28 +72,42 @@ export const data = [
             Clado: 'Dinosauria',
             Espécie: 'Mussaurus patagonicus',
           },
+          fossilizationMode: 'Mineralização',
+          reconstruction: rec3,
           longDescription:
             'Esse, assim como o fóssil de ovo de Protoceratops descrito na sequência contribuíram para o estudo que apontou que os primeiros ovos de dinossauros tinham casca mole, ao contrário da casca de ovo dura que é atribuída aos dinossauros não próximos das aves. No trabalho que foi realizado com esse fóssil os pesquisadores mostraram através das características mineralógicas evidência de que os ovos dos dinossauros Protoceratops e Mussasaurus possuíam casca mole.',
         },
       },
       {
         fossilTitle:
-          'Protoceratops Fóssil de ovo de dinossauro mole (Cretáceo Superior Campaniano 84 - 72 Ma)',
+          'Ovo de dinossauro mole (Cretáceo Superior Campaniano 84 - 72 Ma)',
+        collectedIn: 'Formação Djadochta, localidade Ukhaa Tolgod na Mongólia',
         image: img4,
-        shortDescription:
-          'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
         details: {
+          taxonomicDescription: {
+            Filo: 'Chordata',
+            Clado: 'Dinosauria',
+            Espécie: 'Protoceratops andrewsi',
+          },
+          fossilizationMode: 'Mineralização',
+          reconstruction: rec4,
           longDescription:
-            'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident dolore a aperiam illo soluta ullam quaerat incidunt, deleniti doloremque laborum eveniet similique tempora itaque veniam consequuntur. Totam atque impedit molestias!',
+            'Esse fóssil de Protoceratops em questão foi e continua sendo objeto de estudo de trabalhos que envolvem a embriologia, biologia do desenvolvimento, história de vida e evolução de dinossauros não-aves. As aves atuais são dinossauros vivos e muitas de suas características presentes são assumidas para outros grupos de dinossauros. Portando trabalhos como este ainda podem trazer sobre características ainda desconhecidas de dinossauros do passado.',
         },
       },
       {
         fossilTitle:
           'Archaeopteryx Ave (Jurássico Superior (Titoniano) 150.8–148.5 Ma',
+        collectedIn: 'Pedreira Blumenberg perto de Eichstätt, Alemanha',
         image: img5,
-        shortDescription:
-          'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
         details: {
+          taxonomicDescription: {
+            Filo: 'Chordata',
+            Clado: 'Dinosauria',
+            Espécie: 'Archaeopteryx siemensii',
+          },
+          fossilizationMode: '',
+          reconstruction: rec5,
           longDescription:
             'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident dolore a aperiam illo soluta ullam quaerat incidunt, deleniti doloremque laborum eveniet similique tempora itaque veniam consequuntur. Totam atque impedit molestias!',
         },
